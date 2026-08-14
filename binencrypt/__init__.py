@@ -1,6 +1,6 @@
 """
 binencrypt - Recursive Python Code Encryption Tool
-Version: 2.7.0
+Version: 2.7.6
 """
 
 from .core import (

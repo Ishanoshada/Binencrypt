@@ -12,7 +12,7 @@ if os.path.exists(readme_path):
 else:
     long_description = "Recursive Python code encryption tool with multi-layer obfuscation."
 
-VERSION = "2.7.5"
+VERSION = "2.7.6"
 DESCRIPTION = "Recursive Python code encryption with marshal optimisation and watermarking."
 
 setup(
@@ -24,21 +24,18 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    py_modules=['binencrypt'],  # if you have a single module, but you have package
+    include_package_data=True,
     entry_points={
         'console_scripts': [
             'binencrypt=binencrypt:execute_cli',
         ],
     },
-    install_requires=[
-        # No external dependencies – uses only stdlib
-    ],
+    install_requires=[],
     python_requires='>=3.6',
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Topic :: Security :: Cryptography",
-        "Topic :: Software Development :: Obfuscation",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
@@ -60,5 +57,6 @@ setup(
     project_urls={
         'Source': 'https://github.com/ishanoshada/binencrypt',
         'Bug Reports': 'https://github.com/ishanoshada/binencrypt/issues',
+        'Documentation': 'https://github.com/ishanoshada/binencrypt#readme',
     },
 )

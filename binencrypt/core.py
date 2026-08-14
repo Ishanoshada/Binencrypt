@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 binencrypt.core - Recursive Python code encryption with marshal optimisation, watermarking, and visible watermarks.
-Version: 2.7.4
+Version: 2.7.6
 """
 
 import os
