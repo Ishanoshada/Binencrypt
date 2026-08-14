@@ -2,7 +2,7 @@
 # 🔐 binencrypt
 
 **Recursive Python Code Encryption & Obfuscation**  
-*Version 2.7.2*
+*Version 2.7.5*
 
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
